@@ -52,7 +52,7 @@ st.markdown("""
 # Header
 st.markdown("<div class='main-header'>🖨️ Mahadev Internet & Xerox Center</div>", unsafe_allow_html=True)
 
-st.write("### Welcome to your one-stop solution for all internet, printing, and document services!")
+st.write("### Services Provided: 👇👇")
 
 # Services Section
 # Main Section with Services on the left and Image on the right
@@ -71,7 +71,7 @@ with left_col:
         st.markdown("<div class='service-box'><h3>📠 Scanning</h3><p>Scan and send documents via email or WhatsApp.</p></div>", unsafe_allow_html=True)
 
 with right_col:
-    st.image("Image.jpeg", caption="Our Print & Xerox Machine", use_container_width=True)
+    st.image("Image1.jpg", caption="Our Print & Xerox Machine", use_container_width=True)
 
 st.markdown("<div style='height:5px;'></div>", unsafe_allow_html=True)
 # Contact Info
