@@ -71,7 +71,7 @@ with left_col:
         st.markdown("<div class='service-box'><h3>📠 Scanning</h3><p>Scan and send documents via email or WhatsApp.</p></div>", unsafe_allow_html=True)
 
 with right_col:
-    st.image("image.jpeg", caption="Our Print & Xerox Machine", use_container_width=True)
+    st.image("Image.jpeg", caption="Our Print & Xerox Machine", use_container_width=True)
 
 st.markdown("<div style='height:5px;'></div>", unsafe_allow_html=True)
 # Contact Info
