@@ -24,16 +24,19 @@ st.markdown("""
             border-radius: 0 0 10px 10px;
         }
         .service-box {
-            background-color: #f8f9fa;
+            background-color: #FFC107;  /* Dark Yellow */
             padding: 1.5rem;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
             border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
             text-align: center;
             transition: 0.3s;
+            color: #000; /* Ensures text is visible on yellow background */
         }
         .service-box:hover {
             transform: translateY(-5px);
-            box-shadow: 2px 8px 20px rgba(0,0,0,0.1);
+            box-shadow: 2px 8px 20px rgba(0,0,0,0.2);
         }
         .footer {
             margin-top: 3rem;
@@ -68,7 +71,7 @@ with left_col:
         st.markdown("<div class='service-box'><h3>📠 Scanning</h3><p>Scan and send documents via email or WhatsApp.</p></div>", unsafe_allow_html=True)
 
 with right_col:
-    st.image("Image.jpeg", caption="Our Print & Xerox Machine", use_container_width=True)
+    st.image("image.jpeg", caption="Our Print & Xerox Machine", use_container_width=True)
 
 st.markdown("<div style='height:5px;'></div>", unsafe_allow_html=True)
 # Contact Info
