@@ -52,7 +52,7 @@ st.markdown("""
 # Header
 st.markdown("<div class='main-header'>🖨️ Mahadev Internet & Xerox Center</div>", unsafe_allow_html=True)
 
-st.write("### Services Provided: 👇👇")
+st.write("### 👇👇 Our Services 👇👇")
 
 # Services Section
 # Main Section with Services on the left and Image on the right
