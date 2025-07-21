@@ -52,6 +52,8 @@ st.markdown("""
 # Header
 st.markdown("<div class='main-header'>🖨️ Mahadev Internet & Xerox Center</div>", unsafe_allow_html=True)
 
+st.write("### Contact Us: 7676802833")
+
 st.write("### 👇👇 Our Services 👇👇")
 
 # Services Section
